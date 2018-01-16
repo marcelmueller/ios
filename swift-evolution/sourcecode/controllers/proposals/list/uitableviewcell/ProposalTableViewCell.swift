@@ -163,7 +163,7 @@ extension ProposalTableViewCell {
         let person = Style("person", {
             $0.color = UIColor.Proposal.darkGray
             $0.font = FontAttribute(.HelveticaNeue, size: 14)
-            $0.underline = UnderlineAttribute(color: UIColor.Proposal.darkGray, style: NSUnderlineStyle.styleSingle)
+//            $0.underline = UnderlineAttribute(color: UIColor.Proposal.darkGray, style: NSUnderlineStyle.styleSingle)
         })
         
         return [id, title, label, value, person]
