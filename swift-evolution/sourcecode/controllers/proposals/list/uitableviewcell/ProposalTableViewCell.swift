@@ -144,14 +144,12 @@ extension ProposalTableViewCell {
             $0.font = FontAttribute(.HelveticaNeue_Medium, size: 15)
             $0.color = UIColor.Proposal.lightGray
             $0.lineSpacing = 0
-            $0.paragraphSpacing = 32
         })
         
         let title = Style("title", {
-            $0.font = FontAttribute(.HelveticaNeue_Bold, size: 20)
+            $0.font = FontAttribute(.HelveticaNeue_Bold, size: 24)
             $0.color = UIColor.Proposal.darkGray
             $0.lineSpacing = 0
-            $0.paragraphSpacing = 32
         })
         
         let label = Style("label", {
@@ -167,7 +165,6 @@ extension ProposalTableViewCell {
         let person = Style("person", {
             $0.color = UIColor.Proposal.darkGray
             $0.font = FontAttribute(.HelveticaNeue, size: 15)
-//            $0.underline = UnderlineAttribute(color: UIColor.Proposal.darkGray, style: NSUnderlineStyle.styleSingle)
         })
         
         return [id, title, label, value, person]

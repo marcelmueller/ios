@@ -25,7 +25,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <textView contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" keyboardDismissMode="interactive" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9Qi-F9-RBA">
-                        <rect key="frame" x="16" y="58" width="343" height="107"/>
+                        <rect key="frame" x="16" y="58" width="343" height="98"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
@@ -68,7 +68,7 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="Ffn-v4-55F" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="7pU-Mp-bt6"/>
-                    <constraint firstItem="9Qi-F9-RBA" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Nwd-LG-JRJ"/>
+                    <constraint firstItem="9Qi-F9-RBA" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="-9" id="Nwd-LG-JRJ"/>
                     <constraint firstItem="Ffn-v4-55F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Qxc-GH-tsR"/>
                     <constraint firstAttribute="topMargin" secondItem="0uG-Ru-ZXx" secondAttribute="top" constant="-10" id="cal-H7-gaL"/>
                     <constraint firstItem="9Qi-F9-RBA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="grW-UA-6gA"/>
