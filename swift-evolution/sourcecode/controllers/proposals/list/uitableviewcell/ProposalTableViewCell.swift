@@ -105,8 +105,9 @@ class ProposalTableViewCell: UITableViewCell {
         }
         
         let defaultStyle = Style("defaultStyle", {
-            $0.lineSpacing = 8
+            $0.lineSpacing = 4
             $0.hyphenationFactor = 1.0
+            $0.paragraphSpacing = 6
         })
         
         // Convert all styles into text
