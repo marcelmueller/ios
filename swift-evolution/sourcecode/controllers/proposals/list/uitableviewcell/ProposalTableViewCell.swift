@@ -39,8 +39,9 @@ class ProposalTableViewCell: UITableViewCell {
         }
         
         let state = proposal.status.state.rawValue
-        self.statusLabel.borderColor = state.color
-        self.statusLabel.textColor = state.color
+        self.statusLabel.backgroundColor = state.color
+//        self.statusLabel.borderColor = state.color
+//        self.statusLabel.textColor = state.color
         self.statusLabel.text = state.shortName
         self.statusIndicatorView.backgroundColor = state.color
         
@@ -104,7 +105,7 @@ class ProposalTableViewCell: UITableViewCell {
         }
         
         let defaultStyle = Style("defaultStyle", {
-            $0.lineSpacing = 5.5
+            $0.lineSpacing = 8
             $0.hyphenationFactor = 1.0
         })
         
@@ -139,20 +140,20 @@ extension ProposalTableViewCell {
     
     fileprivate func styles() -> [Style] {
         let id = Style("id", {
-            $0.font = FontAttribute(.HelveticaNeue, size: 20)
+            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 17)
             $0.color = UIColor.Proposal.lightGray
             $0.lineSpacing = 0
         })
         
         let title = Style("title", {
-            $0.font = FontAttribute(.HelveticaNeue, size: 20)
+            $0.font = FontAttribute(.HelveticaNeue_Bold, size: 20)
             $0.color = UIColor.Proposal.darkGray
             $0.lineSpacing = 0
         })
         
         let label = Style("label", {
             $0.color = UIColor.Proposal.lightGray
-            $0.font = FontAttribute(.HelveticaNeue, size: 14)
+            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 14)
         })
         
         let value = Style("value", {

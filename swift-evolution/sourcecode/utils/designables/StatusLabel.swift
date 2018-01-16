@@ -20,9 +20,12 @@ class StatusLabel: BorderedLabel {
     }
     
     override func drawText(in rect: CGRect) {
-        let edgeInsets = UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: 0, left: 8, bottom: 3, right: 8))
+        let edgeInsets = UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8))
         
         super.drawText(in: edgeInsets)
+        
+        self.layer.masksToBounds = true
+        self.layer.cornerRadius = 6
     }
     
     
