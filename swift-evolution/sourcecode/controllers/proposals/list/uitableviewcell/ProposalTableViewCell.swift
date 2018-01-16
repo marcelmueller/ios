@@ -107,7 +107,7 @@ class ProposalTableViewCell: UITableViewCell {
         let defaultStyle = Style("defaultStyle", {
             $0.lineSpacing = 4
             $0.hyphenationFactor = 1.0
-            $0.paragraphSpacing = 6
+            $0.paragraphSpacing = 8
         })
         
         // Convert all styles into text
@@ -141,30 +141,32 @@ extension ProposalTableViewCell {
     
     fileprivate func styles() -> [Style] {
         let id = Style("id", {
-            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 17)
+            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 15)
             $0.color = UIColor.Proposal.lightGray
             $0.lineSpacing = 0
+            $0.paragraphSpacing = 32
         })
         
         let title = Style("title", {
             $0.font = FontAttribute(.HelveticaNeue_Bold, size: 20)
             $0.color = UIColor.Proposal.darkGray
             $0.lineSpacing = 0
+            $0.paragraphSpacing = 32
         })
         
         let label = Style("label", {
             $0.color = UIColor.Proposal.lightGray
-            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 14)
+            $0.font = FontAttribute(.HelveticaNeue_Medium, size: 15)
         })
         
         let value = Style("value", {
             $0.color = UIColor.Proposal.darkGray
-            $0.font = FontAttribute(.HelveticaNeue, size: 14)
+            $0.font = FontAttribute(.HelveticaNeue, size: 15)
         })
         
         let person = Style("person", {
             $0.color = UIColor.Proposal.darkGray
-            $0.font = FontAttribute(.HelveticaNeue, size: 14)
+            $0.font = FontAttribute(.HelveticaNeue, size: 15)
 //            $0.underline = UnderlineAttribute(color: UIColor.Proposal.darkGray, style: NSUnderlineStyle.styleSingle)
         })
         

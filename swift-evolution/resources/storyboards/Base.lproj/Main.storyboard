@@ -295,7 +295,7 @@ Swift and the Swift logo are trademarks of Apple Inc. For more information about
                         <viewControllerLayoutGuide type="bottom" id="2ZS-ut-GeF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EqY-9D-y2h">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UrU-21-DUf">
@@ -563,7 +563,7 @@ Swift and the Swift logo are trademarks of Apple Inc. For more information about
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="rf2-rv-6M0"/>
-        <segue reference="XKc-wh-heR"/>
-        <segue reference="sHa-dI-MgD"/>
+        <segue reference="3pf-Ye-P5i"/>
+        <segue reference="4IH-mQ-5Xa"/>
     </inferredMetricsTieBreakers>
 </document>
